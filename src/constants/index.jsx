@@ -4,7 +4,6 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.webp";
 import project5 from "../assets/project5.webp";
 import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
 
 import {
   RiHtml5Line,
@@ -80,7 +79,7 @@ export const PROJECTS = [
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
+    link: "#",
   },
   {
     id: 6,
@@ -131,69 +130,59 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    role: "Full Stack Developer",
+    company: "Freelancer",
     description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
+      " developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
+    techStack: ["Javascript","Node.Js","React.js", "Next.js","Nest.js","Electron.js","MongoDB","PostGre SQL","AWS", "GCP"],
   },
   {
     yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
+    role: "FullStack Developer - Intership",
+    company: "Brototype",
     description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
+      "Designed and developed user interfaces for web applications using React.js and Express. Worked closely with backend and frontend to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+    techStack: ["Node.js", "React.js","Express.js", "MySQL"],
   },
   {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+    yearRange: "2017 - 2022",
+    role: "System Administrator",
+    company: "MLE ",
     description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
+      "Maintained Network , Appications , PC's and other devices.",
+    techStack: [],
   },
   {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
+    yearRange: "2017 - 2019",
+    role: "PHP developer",
+    company: "Freenlacer",
     description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
+      "Contributed to the development of web applications using php,JavaScript and html. Managed databases and implemented data storage solutions using MySQL. Worked closely with clients to prioritize features and enhancements.",
+    techStack: ["HTML", "JavaScript", "PHP", "MySQL"],
   },
 ];
 
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
-  },
+    degree: "Higher Secondary",
+    institution: "ABVHSS ",
+    duration: "2008 - 2010",
+    description:""  },
   {
     id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
+    degree: "Engineering Diploma",
+    institution: "GPTC",
+    duration: "2010 - 2013",
     description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
-  },
+""  },
   {
     id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "MG UCE",
+    duration: "2014 - 2017",
     description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
-  },
+""  },
 ];
 
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
+
