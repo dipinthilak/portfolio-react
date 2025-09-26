@@ -131,7 +131,7 @@ export const EXPERIENCES = [
   {
     yearRange: "2023 - Present",
     role: "Full Stack Developer",
-    company: "Freelancer",
+    company: "Reflex Systems",
     description:
       " developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
     techStack: ["Javascript","Node.Js","React.js", "Next.js","Nest.js","Electron.js","MongoDB","PostGre SQL","AWS", "GCP"],
@@ -142,7 +142,7 @@ export const EXPERIENCES = [
     company: "Brototype",
     description:
       "Designed and developed user interfaces for web applications using React.js and Express. Worked closely with backend and frontend to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["Node.js", "React.js","Express.js", "MySQL"],
+    techStack: ["Node.js", "React.js","Express.js","MongoDb","PostGreSQl","AWS","GCP"],
   },
   {
     yearRange: "2017 - 2022",
