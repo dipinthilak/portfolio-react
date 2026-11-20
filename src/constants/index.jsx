@@ -1,10 +1,3 @@
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
-import project6 from "../assets/project6.webp";
-
 import {
   RiHtml5Line,
   RiCss3Line,
@@ -21,9 +14,9 @@ import {
 } from "@remixicon/react";
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
+  { label: "Work", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
+  { label: "Experience", href: "#work" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
@@ -32,7 +25,7 @@ export const PROFILE = {
   name: "Dipin T",
   role: "MERN Stack Developer",
   subheading:
-    "With 2 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    "With 4 years of full-stack experience, I build efficient, scalable web applications. I'm not actively looking for a new role, but I'm always open to interesting projects.",
 };
 
 export const PROJECTS = [
@@ -42,7 +35,6 @@ export const PROJECTS = [
     description:
       "A full-featured e-commerce website built with Node.js and ejs. It includes user authentication, product management, and an integrated payment gateway.",
     techStack: [ "Node.js", "Express", "EJS", "MongoDB"],
-    imgSrc: project1,
     link: "#",
   },
   {
@@ -50,8 +42,7 @@ export const PROJECTS = [
     title: "E-MED - Medical Consultation App",
     description:
       "A real-time medical consultation app with video chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux", "Node.js", "Epress", "MongoDB","Websocket"],
-    imgSrc: project2,
+    techStack: ["React", "Firebase", "Redux", "Node.js", "Express", "MongoDB", "WebSockets"],
     link: "#",
   },
   {
@@ -60,7 +51,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
     techStack: ["React.js", "Tailwind CSS"],
-    imgSrc: project3,
     link: "#",
   },
   {
@@ -69,7 +59,6 @@ export const PROJECTS = [
     description:
       "A blogging platform with a content management system, user authentication, and an intuitive editor.",
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imgSrc: project4,
     link: "https://example-blogplatform.com",
   },
   {
@@ -78,7 +67,6 @@ export const PROJECTS = [
     description:
       "A task management tool with user authentication, reminders, and collaboration features.",
     techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
     link: "#",
   },
   {
@@ -87,7 +75,6 @@ export const PROJECTS = [
     description:
       "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
     techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
     link: "https://example-learningplatform.com",
   },
 ];
@@ -95,35 +82,35 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    icon: <RiNodeTree className="skill-icon-glyph" />,
   },
   {
     name: "React",
-    icon: <RiReactjsLine className="text-blue-400" />,
+    icon: <RiReactjsLine className="skill-icon-glyph" />,
   },
   {
     name: "MongoDB",
-    icon: <RiDatabaseLine className="text-green-600" />,
+    icon: <RiDatabaseLine className="skill-icon-glyph" />,
   },
   {
     name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600" />,
+    icon: <RiHtml5Line className="skill-icon-glyph" />,
   },
   {
     name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500" />,
+    icon: <RiCss3Line className="skill-icon-glyph" />,
   },
   {
     name: "JavaScript",
-    icon: <RiJavascriptLine className="text-yellow-500" />,
+    icon: <RiJavascriptLine className="skill-icon-glyph" />,
   },
   {
     name: "Tailwind CSS",
-    icon: <RiCodeSSlashLine className="text-teal-400" />,
+    icon: <RiCodeSSlashLine className="skill-icon-glyph" />,
   },
   {
     name: "GraphQL",
-    icon: <RiGitBranchLine className="text-pink-400" />,
+    icon: <RiGitBranchLine className="skill-icon-glyph" />,
   },
 ];
 
@@ -133,15 +120,15 @@ export const EXPERIENCES = [
     role: "Full Stack Developer",
     company: "Reflex Systems",
     description:
-      " developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
+      "Develop and maintain web applications with JavaScript, React, and Node.js. Build RESTful APIs, integrate MongoDB databases, and collaborate with stakeholders to define project requirements and delivery timelines.",
     techStack: ["Javascript","Node.Js","React.js", "Next.js","Nest.js","Electron.js","MongoDB","PostGre SQL","AWS", "GCP"],
   },
   {
     yearRange: "2022 - 2023",
-    role: "FullStack Developer - Intership",
-    company: "Brototype",
+    role: "Full-stack Developer Intern",
+    company: "Reflex Systems",
     description:
-      "Designed and developed user interfaces for web applications using React.js and Express. Worked closely with backend and frontend to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+      "Designed and developed web interfaces with React and Express. Collaborated across frontend and backend work to integrate components with Node.js APIs, build responsive layouts, and improve frontend performance.",
     techStack: ["Node.js", "React.js","Express.js","MongoDb","PostGreSQl","AWS","GCP"],
   },
   {
@@ -149,15 +136,15 @@ export const EXPERIENCES = [
     role: "System Administrator",
     company: "MLE ",
     description:
-      "Maintained Network , Appications , PC's and other devices.",
+      "Maintained networks, applications, computers, and other IT equipment.",
     techStack: [],
   },
   {
     yearRange: "2017 - 2019",
-    role: "PHP developer",
-    company: "Freenlacer",
+    role: "PHP Developer",
+    company: "Freelance",
     description:
-      "Contributed to the development of web applications using php,JavaScript and html. Managed databases and implemented data storage solutions using MySQL. Worked closely with clients to prioritize features and enhancements.",
+      "Built web applications with PHP, JavaScript, and HTML. Managed MySQL databases and worked with clients to prioritize features and improvements.",
     techStack: ["HTML", "JavaScript", "PHP", "MySQL"],
   },
 ];
@@ -166,7 +153,7 @@ export const EDUCATION = [
   {
     id: 1,
     degree: "Higher Secondary",
-    institution: "ABVHSS ",
+    institution: "ABVHSS",
     duration: "2008 - 2010",
     description:""  },
   {

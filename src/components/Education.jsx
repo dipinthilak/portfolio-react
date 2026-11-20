@@ -1,25 +1,31 @@
-import {useRef} from 'react'
-import {EDUCATION} from '../constants'
+import { RiGraduationCapLine } from "@remixicon/react";
+import { EDUCATION } from "../constants";
 
 function Education() {
-    const educationRef=useRef(null);
   return (
-    <section ref={educationRef} id='education' className='py-16 '>
-        <div className='mx-auto max-w-full px-4'>
-            <h2 className='mb-8 text-center text-3xl font-medium lg:text-4xl'>Education</h2>
-            <div className='flex flex-col space-y-8'>
-              {EDUCATION.map((edu)=>(
-                <div key={edu.id} className='rounded-xl border border-purple-300/20 p-6'>
-                  <h3 className='mb-2 text-lg lg:text-2xl'>{edu.degree}</h3>
-                  <h4 className='text-lg font-medium lg:text-xl'>{edu.institution}</h4>
-                  <p className='text-sm lg:text-base'>{edu.duration}</p>
-                  <p className='mt-4'>{edu.description}</p>
-                </div>
-              ))}
-            </div>
+    <section className="content-section section-wrap" id="education">
+      <div className="section-heading">
+        <div>
+          <p className="section-kicker">Learning foundation</p>
+          <h2>Education.</h2>
         </div>
+      </div>
+
+      <div className="education-grid">
+        {EDUCATION.map((education) => (
+          <article className="education-card" key={education.id}>
+            <span className="education-icon">
+              <RiGraduationCapLine aria-hidden="true" />
+            </span>
+            <p className="education-duration">{education.duration}</p>
+            <h3>{education.degree}</h3>
+            <p className="education-institution">{education.institution}</p>
+            {education.description && <p>{education.description}</p>}
+          </article>
+        ))}
+      </div>
     </section>
-  )
+  );
 }
 
-export default Education
+export default Education;

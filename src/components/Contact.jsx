@@ -1,48 +1,53 @@
-import { RiGithubFill, RiLinkedinBoxFill, RiTwitterFill } from "@remixicon/react";
-import { useRef } from "react";
+import {
+  RiGithubFill,
+  RiLinkedinBoxFill,
+  RiMailLine,
+  RiTwitterFill,
+} from "@remixicon/react";
 
 function Contact() {
-  const contactRef = useRef(null);
   return (
-    <section className="py-16 mb-96" id="contact" ref={contactRef}>
-      <div className="px-4 text-center">
-        <h2 className="mb-8 text-3xl font-medium lg:text-4xl">Contact</h2>
-        <p className="mb-4 text-lg lg:text-xl">
-          Feel free to reach our to me via email :{" "}
-          <a href="mailto:dipint2023@gmail.com" className="border-b">
-            dipint2023@gmail.com
-          </a>
-        </p>
-        <div className="mt-8 flex justify-center space-x-6">
-          <a
-            href="https://linkedin.com/in/dipinthilak"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-icon"
-            aria-label="Visit my LinkedIn profile"
-          >
-            <RiLinkedinBoxFill className="text-3xl" />
-          </a>
-          <a
-            href="https://github.com/in/dipinthilak"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-icon"
-            aria-label="Visit my github profile"
-          >
-            <RiGithubFill className="text-3xl" />
-          </a>
-          <a
-            href="https://twitter.com/in/dipinthilak"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="contact-icon"
-            aria-label="Visit my twitter profile"
-          >
-            <RiTwitterFill className="text-3xl" />
-          </a>
-
+    <section className="contact-section section-wrap" id="contact">
+      <div className="contact-card">
+        <div className="contact-copy">
+          <p className="section-kicker">Have something in mind?</p>
+          <h2>Let&apos;s make it happen.</h2>
+          <p>
+            I&apos;m always curious about thoughtful ideas and interesting
+            challenges. Drop me a line and let&apos;s talk.
+          </p>
         </div>
+        <a className="button button-contact" href="mailto:dipint2023@gmail.com">
+          <RiMailLine aria-hidden="true" />
+          dipint2023@gmail.com
+        </a>
+      </div>
+
+      <div className="social-links" aria-label="Social profiles">
+        <a
+          href="https://linkedin.com/in/dipinthilak"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn profile"
+        >
+          <RiLinkedinBoxFill aria-hidden="true" />
+        </a>
+        <a
+          href="https://github.com/in/dipinthilak"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile"
+        >
+          <RiGithubFill aria-hidden="true" />
+        </a>
+        <a
+          href="https://twitter.com/in/dipinthilak"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my Twitter profile"
+        >
+          <RiTwitterFill aria-hidden="true" />
+        </a>
       </div>
     </section>
   );
